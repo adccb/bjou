@@ -1,0 +1,19 @@
+{
+  "name": "bjou",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --watch",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.4.3",
+    "prettier": "^2.5.1",
+    "prompts": "^2.4.2"
+  }
+}
